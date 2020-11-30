@@ -87,6 +87,10 @@ $products = array(
     )
 )
 ?>
+          
+          
+// MD SAEEM UDDIN 1721129
+          
 <body>
     <div id="main-container">
 <?php
@@ -190,6 +194,11 @@ $products = array(
     } else{
         $total5=0;
         $total5withoutdisc=0;}
+          
+          
+          
+     // Muhamad Akmal bin Abu Bakar 1811543    
+      
     if($quantity_item6 > 0){
         echo "<br> Item No ".$products[5]['item_no'];
         echo "<br>".$products[5]['description'];
@@ -266,6 +275,9 @@ $products = array(
         $total10=0;
         $total10withoutdisc=0;}
 
+          
+   //MR SHARIFUL ISLAM 1619061 
+         
     echo "<br>......................................................................................................................................................";
     $subtotalwithoutdisc = $total1withoutdisc + $total2withoutdisc + $total3withoutdisc + $total4withoutdisc+
     $total5withoutdisc+$total6withoutdisc+$total7withoutdisc+$total8withoutdisc+$total9withoutdisc+$total10withoutdisc;
