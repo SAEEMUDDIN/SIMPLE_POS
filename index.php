@@ -73,6 +73,9 @@
 <body>
 <?php
 
+    
+//Muhamad Akmal bin Abu Bakar 1811543  
+
 $products = array(
     array(
         "item_no"=> 1,
@@ -136,6 +139,11 @@ $products = array(
     )
 )
 ?>
+    
+    
+    
+ // MR SHARIFUL ISLAM 1619061
+    
     <div id="outer-div">
     <h1>WELCOME TO AWANI FURNITURE</h1>
     </div>
@@ -389,6 +397,9 @@ $products = array(
     <h1></h1>
     <input type="submit" name="submit" style="position:absolute;right:169px;border:3px solid black;height: 40px;width: 160px;"value="Proceed to Payment">
     </form>
+    
+    
+  //MD SAEEM UDDIN 1721129
 
     <?php
     if(isset($_GET['quantity_item1'])){
